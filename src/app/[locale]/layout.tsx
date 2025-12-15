@@ -2,27 +2,34 @@ import type {Metadata} from 'next';
 import '@/styles/global.css';
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
-import type {Locale} from '@/i18n/routing';
+import {routing, type Locale} from '@/i18n/routing';
 
 export const metadata: Metadata = {
   title: 'Evgenii Mishechkin — Frontend Developer',
   description: 'Strict, minimalistic portfolio built with Next.js'
 };
 
+function isLocale(value: string): value is Locale {
+  return routing.locales.includes(value as Locale);
+}
+
 export default async function LocaleLayout({
   children,
   params
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
-  const messages = await getMessages({ locale });
+  const {locale} = await params;
+
+  const safeLocale: Locale = isLocale(locale) ? locale : routing.defaultLocale;
+
+  const messages = await getMessages({locale: safeLocale});
 
   return (
-    <html lang={locale}>
+    <html lang={safeLocale}>
       <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider locale={safeLocale} messages={messages}>
           {children}
         </NextIntlClientProvider>
       </body>
