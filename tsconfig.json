@@ -13,13 +13,11 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
+    "plugins": [{ "name": "next" }],
+
+    // ⬇️ новый способ — baseUrl НЕ нужен
     "paths": {
-      "<gtsapp>/*": ["./src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": [

@@ -1,0 +1,24 @@
+{
+  "home": {
+    "roleBadgeLeft": "Frontend",
+    "roleBadgeRight": "Developer",
+    "name": "Evgenii Mishechkin",
+    "heroText": "Strogi, minimalisticki portfolio napravljen uz pomoc Next.js",
+    "experienceTitle": "Iskustvo",
+    "aboutTitle": "O meni",
+    "aboutText": [
+      "Zdravo, zovem se Evgenii.",
+      "Ja sam Frontend developer sa nekonvencionalnom profesionalnom pozadinom. Više od deset godina gradio sam karijeru u kreativnoj industriji, što mi je pomoglo da razvijem snažnu kreativnost, empatiju, otpornost, vještine timskog rada i sposobnost konstruktivnog prihvatanja povratnih informacija. Ovo iskustvo me je naučilo da razmišljam van okvira, a da pritom ostanem logičan, strukturiran i efikasan.",
+      "Godine 2020. pandemija je promijenila moj profesionalni put i odlučio sam da se u potpunosti posvetim web razvoju. Tokom posljednjih pet godina uspješno primjenjujem svoje raznovrsno iskustvo u rješavanju kako nestandardnih, tako i tehnički složenih zadataka. Moj snažan osjećaj za formu i pažnja prema detaljima omogućavaju mi da gradim dobro strukturirane i visokokvalitetne digitalne proizvode."
+    ],
+    "contactTitle": "Kontakti",
+    "skillsTitle": "Vjestine",
+    "projectsTitle": "Licni projekti",
+    "languagesTitle": "Jezici",
+    "languagesLine": "Engleski A2, Ruski Mternji, Srpski A2",
+    "skills": {
+      "advanced": "Napredno",
+      "intermediate": "Srednje"
+    }
+  }
+}

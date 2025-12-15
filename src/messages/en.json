@@ -1,0 +1,25 @@
+{
+  "home": {
+    "roleBadgeLeft": "Frontend",
+    "roleBadgeRight": "Developer",
+    "name": "Evgenii Mishechkin",
+    "heroText": "Strict, minimalistic portfolio built with Next.js",
+    "experienceTitle": "Experience",
+    "aboutTitle": "About",
+    "aboutText": [
+      "Hi, my name is Evgenii.",
+      "I'm a Frontend developer with an unconventional professional background. For over ten years, I built a career in the creative industry, which helped me develop strong creativity, empathy, resilience, teamwork skills, and the ability to take feedback constructively. This experience taught me to think outside the box while staying logical, structured, and efficient.",
+      "In 2020, the pandemic reshaped my career path, and I decided to fully transition into web development. For the past five years, I’ve been successfully applying my diverse experience to solve both non-standard and technically complex tasks. My strong sense of form and attention to detail allow me to build well-structured, high-quality digital products."
+    ],
+    "contactTitle": "Contacts",
+    "skillsTitle": "Skills",
+    "projectsTitle": "Pet projects",
+    "languagesTitle": "Languages",
+    "languagesLine": "English B2, Russian Native, Serbian A2",
+    "skills": {
+      "advanced": "Advanced",
+      "intermediate": "Intermediate"
+    }
+  }
+}
+
