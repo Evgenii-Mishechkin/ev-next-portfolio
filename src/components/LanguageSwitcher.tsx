@@ -15,7 +15,7 @@ export function LanguageSwitcher({ lang, onChange }: Props) {
           key={code}
           type="button"
           onClick={() => onChange(code)}
-          className={`px-2 py-0.5 rounded-full uppercase tracking-[0.16em] transition-all duration-200 ${
+          className={`px-2 py-0.5 rounded-full uppercase tracking-[0.16em] transition-all duration-200 cursor-pointer ${
             lang === code
               ? "bg-amber-400 text-black"
               : "text-neutral-400 hover:text-amber-300"

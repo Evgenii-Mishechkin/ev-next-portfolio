@@ -99,7 +99,7 @@ export function FlipText({
   }, [text, seed, speed, delay, cycles, stagger]);
 
   const wrapClasses = nowrap
-    ? `whitespace-nowrap ${ellipsis ? "overflow-hidden text-ellipsis" : ""}`
+    ? `whitespace-nowrap ${ellipsis ? "text-ellipsis" : ""}`
     : "whitespace-normal break-words";
 
   return (
