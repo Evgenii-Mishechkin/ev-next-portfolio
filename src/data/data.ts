@@ -56,6 +56,7 @@ export const work:IWorkData[] = [
       "UIKit",
       "Vite",
       "REST API",
+      "Laravel",
       "Git",
       "GitLab",
     ],
