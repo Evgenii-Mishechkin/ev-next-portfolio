@@ -34,7 +34,7 @@ export const work:IWorkData[] = [
     company: 'LLC "Veter"',
     role: "Frontend Developer",
     period: "2023 – 2024 (Project-based)",
-    stack: ["JavaScript", "HTML", "CSS", "Vue.js", "Svelte", "GitLab"],
+    stack: ["JavaScript", "HTML", "CSS", "Vue.js", "GitLab"],
     links: [
       { label: "Trampoline Park NEBO", href: "https://nebojump.ru/" },
       { label: "Sanatorium Polist", href: "https://sanatory-polist.ru/" },
