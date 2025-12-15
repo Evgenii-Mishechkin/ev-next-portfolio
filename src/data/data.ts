@@ -99,6 +99,11 @@ export const contactsData: ContactsData = {
       href: 'https://www.linkedin.com/in/evgenii-mishechkin',
       external: true
     },
+    {
+      label: 'Resume PDF',
+      href: 'files/resume.pdf',
+      external: true
+    },
     
   ]
 };

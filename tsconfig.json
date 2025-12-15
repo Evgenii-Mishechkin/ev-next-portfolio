@@ -15,7 +15,7 @@
     "incremental": true,
     "plugins": [{ "name": "next" }],
 
-    // ⬇️ новый способ — baseUrl НЕ нужен
+    
     "paths": {
       "@/*": ["./src/*"]
     }
