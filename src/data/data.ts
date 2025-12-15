@@ -98,6 +98,7 @@ export const contactsData: ContactsData = {
       href: 'https://www.linkedin.com/in/evgenii-mishechkin',
       external: true
     },
+    
   ]
 };
 
@@ -163,6 +164,11 @@ export const petProjects: IPetProject[] = [
     title: "Payment component",
     note: "Reusable UI component with validation and UX details.",
     href: "https://payment-component-demo-em.vercel.app/"
+  },
+  {
+    title: "ev-next-portfolio",
+    note: "Strict, minimalistic portfolio built with Next.js",
+    href: "https://github.com/Evgenii-Mishechkin/ev-next-portfolio.git"
   },
 ];
 
