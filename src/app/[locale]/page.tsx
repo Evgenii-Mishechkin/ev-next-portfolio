@@ -49,7 +49,7 @@ export default function HomePage() {
                 <FlipText text={t("name")} />
               </h1>
               <p className="mt-3 max-w-xl text-sm sm:text-base text-neutral-400">
-                <FlipText text={t("heroText")} />
+                <FlipText text={t("heroText")} speed={10} />
               </p>
             </div>
           </header>
