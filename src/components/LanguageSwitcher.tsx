@@ -9,7 +9,7 @@ type Props = {
 
 export function LanguageSwitcher({ lang, onChange }: Props) {
   return (
-    <div className="inline-flex items-center gap-1 rounded-full border border-neutral-800 bg-neutral-950/70 px-2 py-1 text-[11px]">
+    <div className="inline-flex items-center gap-1 rounded-full border border-neutral-800 bg-neutral-950/50 px-2 py-1 text-[11px]">
       {routing.locales.map((code) => (
         <button
           key={code}

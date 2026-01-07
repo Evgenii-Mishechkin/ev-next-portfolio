@@ -26,9 +26,9 @@ body {
     125deg,
     rgba(20, 180, 200, 0.28),
     rgba(10, 10, 10, 0.18) 28%,
-    rgba(230, 120, 60, 0.28) 55%,
+    rgba(10, 67, 55, 0.28) 55%,
     rgba(10, 10, 10, 0.18) 78%,
-    rgba(255, 255, 255, 0.26)
+    rgba(0, 0, 0, 0.26)
   );
   background-size: 200% 200%;
   animation: glass-flow 60s ease-in-out infinite;
