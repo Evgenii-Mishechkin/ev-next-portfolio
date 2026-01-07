@@ -6,15 +6,15 @@ export function Scrambled({ text }: { text: string }) {
 
   const { ref } = useScramble({
     text,
-    speed: 0.3,
+    speed: 0.2,
     tick: 8,
     scramble: 8,
     step: Math.max(80, len * 1),
     seed: 100,
-    range: [33, 126],
+    range: [32, 48, 49],
     overdrive: 86,
     overflow: false,
-    ignore: [" ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"],
+    ignore: [""],
     playOnMount: true,
   });
 
