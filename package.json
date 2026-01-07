@@ -12,7 +12,10 @@
     "next": "^16.0.8",
     "next-intl": "^4.6.0",
     "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "react-dom": "^19.2.1",
+    "react-flip-numbers": "^3.0.9",
+    "split-flap-display": "^1.0.0",
+    "use-scramble": "^2.2.15"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

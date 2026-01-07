@@ -3,4 +3,47 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
     "Segoe UI", sans-serif;
+  background-color: #0e0e0e;
+}
+
+@keyframes glass-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.glass-gradient::before {
+  content: "";
+  position: fixed;
+  inset: -20%;
+  background: linear-gradient(
+    125deg,
+    rgba(20, 180, 200, 0.28),
+    rgba(10, 10, 10, 0.18) 28%,
+    rgba(230, 120, 60, 0.28) 55%,
+    rgba(10, 10, 10, 0.18) 78%,
+    rgba(255, 255, 255, 0.26)
+  );
+  background-size: 200% 200%;
+  animation: glass-flow 60s ease-in-out infinite;
+  filter: blur(40px) saturate(120%);
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.glass-gradient > * {
+  position: relative;
+  z-index: 1;
+}
+
+.app-shell {
+  position: relative;
+  z-index: 1;
 }

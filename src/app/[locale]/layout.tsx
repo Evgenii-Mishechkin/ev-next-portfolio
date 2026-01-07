@@ -28,10 +28,12 @@ export default async function LocaleLayout({
 
   return (
     <html lang={safeLocale}>
-      <body>
-        <NextIntlClientProvider locale={safeLocale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+      <body className="glass-gradient">
+        <div className="app-shell">
+          <NextIntlClientProvider locale={safeLocale} messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </div>
       </body>
     </html>
   );

@@ -12,7 +12,6 @@ function isLocale(value: string): value is Locale {
 export function proxy(request: NextRequest) {
   const {pathname} = request.nextUrl;
 
-  // /en/about → ['en', 'about']
   const [, maybeLocale, ...rest] = pathname.split('/');
 
   if (maybeLocale && !isLocale(maybeLocale)) {
