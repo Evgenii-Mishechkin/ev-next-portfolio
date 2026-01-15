@@ -18,7 +18,8 @@
     "languagesLine": "Английский A2, Русский Родной, Сербский A2",
     "skills": {
       "advanced": "Продвинутый",
-      "intermediate": "Средний"
+      "intermediate": "Средний",
+      "backend": "Опыт работы с бэкендом"
     }
   }
 }

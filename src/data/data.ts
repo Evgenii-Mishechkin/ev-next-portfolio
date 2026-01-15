@@ -50,15 +50,13 @@ export const work:IWorkData[] = [
     period: "2022 – Present",
     stack: [
       "Vue.js",
-      "Svelte",
+      "SvelteKit",
       "TypeScript",
       "TailwindCSS",
       "UIKit",
       "Vite",
-      "REST API",
-      "Laravel",
       "Git",
-      "GitLab",
+      "GitLab"
     ],
   },
 ];
@@ -113,6 +111,7 @@ export const contactsData: ContactsData = {
 export interface ISkillData {
   advanced:string[];
   intermediate:string[];
+  backend:string[];
 }
 
 export const skills: ISkillData = {
@@ -139,6 +138,14 @@ export const skills: ISkillData = {
     "Webpack",
     "Git / GitLab",
     "SEO",
+  ],
+  backend: [
+    "NodeJS",
+    "Express.js (REST API, API integrations)",
+    "PHP",
+    "Laravel",
+    "Yii2",
+    "MySQL / MariaDB"
   ]
 };
 

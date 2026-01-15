@@ -118,6 +118,7 @@ export default function HomePage() {
             <div className="space-y-3 text-xs">
               <SkillGroup label={t("skills.advanced")} skills={skills.advanced} />
               <SkillGroup label={t("skills.intermediate")} skills={skills.intermediate} />
+              <SkillGroup label={t("skills.backend")} skills={skills.backend} />
             </div>
           </section>
 
